@@ -17,7 +17,7 @@ export class UpdateAdminDto extends PartialType(CreateAdminDto) {
   @IsOptional()
   @IsString()
   lastNameName?: string;
-  
+
   @IsOptional()
   @IsEmail()
   email?: string;
